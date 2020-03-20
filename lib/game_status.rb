@@ -58,7 +58,7 @@ end
     end
   end
   
-  def winner?(board)
+  def winner(board)
     if won?(board)
     indexes = won?(board)
    return board[indexes[0]]
